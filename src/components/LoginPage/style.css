@@ -1,0 +1,128 @@
+div.container{
+    width: 144px;
+    margin: 50px;
+}
+
+main.Login{
+    background: #000000;
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+button.Login{
+    height: 42px;
+    margin: 20px 0;
+    width: 241px;
+    background: #FD377E;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 15px;
+}
+
+.container p{
+    text-align: start;
+    width: 300px;
+}
+
+.container h1{    
+    list-style-type: none;
+    margin: 0;
+    font-size: 38px;
+    width: 300px;
+    text-align: start;
+}
+
+.container img{
+    padding: 20px 0;
+}
+
+
+
+
+@media screen and (min-width: 600px){
+    div.set4 {
+        margin: 20px;
+        background: rgba(224, 100, 204, 0.05);
+        border-radius: 50%;
+        width: 593px;
+        height: 593px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 200px;
+    }
+    
+    div.set3 {
+        background: rgba(224, 100, 204, 0.05);
+        border-radius: 50%;
+        width: 516px;
+        height: 516px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    div.set2 {
+        background: rgba(224, 100, 204, 0.05);
+        border-radius: 50%;
+        width: 424px;
+        height: 424px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    div.set1{
+        width: 256.21px;
+        height: 354.89px;
+        background: #fff;
+        background: #FFFFFF;
+        border-radius: 3.62137px
+    }
+    
+    div.setDot{
+        display: flex;
+        height: 30px;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0 25px;
+    }
+    
+    section.dot1{
+        width: 9px;
+        height: 9px;
+        background: #FD377E;
+        border-radius: 50%;
+        margin: 3px;
+    }
+    
+    section.dot2{
+        width: 9px;
+        height: 9px;
+        background: #66C085;
+        border-radius: 50%;
+        margin: 3px;
+    }
+    
+    section.dot3{
+        width: 9px;
+        height: 9px;
+        background: #000;
+        border-radius: 50%;
+        margin: 3px;
+    }
+    
+    
+    div.setBox{
+        width: 206px;
+        height: 36px;
+        background: #F3F3F3;
+        border-radius: 1.81069px;
+        margin: 15px 22px;
+    }
+}

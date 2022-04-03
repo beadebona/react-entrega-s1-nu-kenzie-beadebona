@@ -1,0 +1,64 @@
+ul{
+    padding: 0;
+    margin: 20px;
+}
+
+li{
+    list-style-type: none;
+    padding: 8px 18px;
+    background: #F8F9FA;
+    width: 90%;
+    height: 86px;
+    border-radius: 4px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.trash-button:hover{
+    background: #868E96;
+    border: 2px solid #868E96;
+    color: #F8F9FA;
+}
+
+
+li.Entrada{
+    border-left: 4px solid green;
+}
+
+li.Despesa{
+    border-left: 4px solid #E9ECEF;
+}
+
+h2{
+    width: 100%;
+    font-size: 22px;
+    color: #868E96;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+li.empty{
+    background-color:#F8F9FA;
+    display: block;
+    border-left: 4px solid #E9ECEF;
+}
+
+.MarkerOne{
+    width:70%;
+    height: 13px;
+    background: #E9ECEF;
+    margin: 10px;
+}
+
+.MarkerTwo{
+    width:30%;
+    margin: 10px;
+    height: 13px;
+    background: #E9ECEF;
+}
