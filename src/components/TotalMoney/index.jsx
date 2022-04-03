@@ -14,7 +14,7 @@ import "./style.css";
     return (
           
         <>{array.length > 0 ?(
-            <div className="box">
+            <div className="totalValue">
                 <div>
                     <h3>Valor total:</h3>
                     <p>O valor se refere ao saldo</p>

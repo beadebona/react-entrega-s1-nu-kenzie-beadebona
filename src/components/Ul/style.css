@@ -22,6 +22,9 @@ li{
     color: #F8F9FA;
 }
 
+li span{
+    width: 60px;
+}
 
 li.Entrada{
     border-left: 4px solid green;

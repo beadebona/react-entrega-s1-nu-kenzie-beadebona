@@ -14,7 +14,7 @@ const Form =({addTransactions})=>{
         <form onSubmit={(event) => event.preventDefault()}>
                 <h4>Descrição</h4>
                 <div className="flex-start">
-                    <input name="description" type="text" onChange={inputValue} />
+                    <input name="description" type="text" onChange={inputValue}  />
                     <p className="exemplo">Ex: Compra de roupas</p>
                 </div>
                
