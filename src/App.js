@@ -9,7 +9,6 @@ import LoginPage from './components/LoginPage'
 // import Card from './components/Card'
 
 function App() {
-
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const [transactions, setTransactions] = useState([])
   const [show, setShow] = useState([...transactions])
@@ -21,7 +20,7 @@ function App() {
 
   const handleTransaction = (ok) => {
     const filtered = transactions.filter((item)=>{
-         return item.description !== ok
+         return item.id !== ok
      })
      setTransactions(filtered)
      setShow(filtered)

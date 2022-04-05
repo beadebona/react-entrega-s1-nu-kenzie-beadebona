@@ -15,7 +15,7 @@ const Ul= ({show, handleTransaction})=>{
                     </div>
                     <div className="info">
                         <span>R$ {transaction.value}</span>
-                        <button onClick={()=>handleTransaction(transaction.description)} className="trash-button" ><FaTrash/></button>
+                        <button onClick={()=>handleTransaction(transaction.id)} className="trash-button" ><FaTrash/></button>
                     </div>
                             
                 </li>
